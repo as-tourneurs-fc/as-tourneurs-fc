@@ -27,7 +27,7 @@ export default function Testimonials() {
 
             <Avatar
               image={userOneImg}
-              name="Contact"
+              name="M. Roland Haas"
               title="Tél. 06 88 38 06 22"
             />
           </div>

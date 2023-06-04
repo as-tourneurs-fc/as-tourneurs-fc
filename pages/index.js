@@ -89,10 +89,10 @@ export default function Home() {
     <>
 
       <Head>
-        <title>Tourneurs de Franche-Comté</title>
+        <title>Association des Tourneurs de Franche-Comté</title>
         <meta
           name="description"
-          content="Tourneurs de Franche-Comté"
+          content="Association des Tourneurs de Franche-Comté"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -112,7 +112,7 @@ export default function Home() {
       </div>
 
       <SectionTitle
-        pretitle="Tourneurs de Franche-Comté"
+        pretitle="Association des Tourneurs de Franche-Comté"
         title="Association à but non lucratif créée à l’initiative de notre ancien président M. Daniel Reïchenbach.">
       </SectionTitle>
 
@@ -157,7 +157,7 @@ export default function Home() {
 
       <div>
         <Container>
-          <Zoom scale={1.4} {...properties}>
+          <Zoom scale={1.4} duration={2000} {...properties}>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide0.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide1.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide2.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>

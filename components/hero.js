@@ -7,7 +7,7 @@ export default function Hero() {
     <>
       <Container className="flex flex-wrap justify-center">
 
-        <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white text-center uppercase"><span className="text-indigo-600">T</span>ourneurs de <span className="text-indigo-600">F</span>ranche-<span className="text-indigo-600">C</span>omté</h1>
+        <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white text-center uppercase max-w-3xl"><span className="text-indigo-600">A</span>ssociation des <span className="text-indigo-600">T</span>ourneurs de <span className="text-indigo-600">F</span>ranche-<span className="text-indigo-600">C</span>omté</h1>
 
         <div className="flex items-center w-full">
           <div className="mb-8">
@@ -54,7 +54,6 @@ export default function Hero() {
               width="616"
               height="617"
               alt="Hero Illustration"
-              layout="intrinsic"
               loading="eager"
               placeholder="blur"
             />
