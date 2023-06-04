@@ -1,7 +1,9 @@
 module.exports = {
-  i18n: {
-    locales: ["fr"],
-    defaultLocale: "fr",
+  // distDir: 'dist',
+  output: 'export',
+  images: {
+    loader: 'akamai',
+    path: '',
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
