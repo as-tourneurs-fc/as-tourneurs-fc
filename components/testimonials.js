@@ -3,6 +3,7 @@ import React from "react";
 import Container from "./container";
 
 import userOneImg from "../public/img/avatar.jpg";
+
 const Facebook = ({ size = 24 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

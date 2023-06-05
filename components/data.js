@@ -11,7 +11,7 @@ import {
   SparklesIcon
 } from "@heroicons/react/24/outline";
 
-import benefitOneImg from "../public/img/_XL19801.jpg";
+import benefitOneImg from "../public/img/_bee11115.jpg";
 import benefitTwoImg from "../public/img/XL1_6413.jpg";
 import benefitThreeImg from "../public/img/_XL19789.jpg";
 

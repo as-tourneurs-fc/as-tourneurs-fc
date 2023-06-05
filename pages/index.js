@@ -34,15 +34,14 @@ import Container from "../components/container";
 
 
 import slide37 from '../public/img/_XL11236.jpg'
-import slide36 from '../public/img/_XL19761.jpg'
+
 import slide35 from '../public/img/_XL19788.jpg'
-import slide34 from '../public/img/_XL19789.jpg'
-import slide33 from '../public/img/_XL19801.jpg'
+
 import slide32 from '../public/img/_XL19804.jpg'
 import slide31 from '../public/img/20161118_202525_resized_1.jpg'
-import slide30 from '../public/img/20161118_203058_resized.jpg'
+
 import slide29 from '../public/img/311571546_1240304366789210_7344339275355158740_n.jpg'
-import slide28 from '../public/img/image001.jpg'
+
 import slide27 from '../public/img/jardin14.jpg'
 import slide26 from '../public/img/jardin22.jpg'
 import slide25 from '../public/img/Micropolis-2010_236.jpg'
@@ -61,16 +60,16 @@ import slide13 from '../public/img/P1060761.jpg'
 import slide12 from '../public/img/P1060824.jpg'
 import slide11 from '../public/img/P1060835.jpg'
 import slide10 from '../public/img/P1060860.jpg'
-import slide9 from '../public/img/talents-saveurs-comtois8.jpg'
+
 import slide8 from '../public/img/WP_20161118_17_56_19_Pro.jpg'
 import slide7 from '../public/img/wpbafb1b16_06-233x300.png'
-import slide6 from '../public/img/XL1_0417.jpg'
-import slide5 from '../public/img/XL1_0425.jpg'
+
+
 import slide4 from '../public/img/XL1_0530.jpg'
-import slide3 from '../public/img/XL1_0544.jpg'
+
 import slide2 from '../public/img/XL1_0556.jpg'
 import slide1 from '../public/img/XL1_4838.jpg'
-import slide0 from '../public/img/XL1_6413.jpg'
+
 
 
 const buttonStyle = {
@@ -101,14 +100,16 @@ export default function Home() {
 
       <Hero />
 
-      <div className="relative w-full h-48 lg:h-64 overflow-hidden">
+      <div className="relative w-full h-48 lg:h-64 overflow-hidden flex items-center">
         <Image
           src={imgBg}
           fill={true}
           alt=""
           placeholder="blur"
           style={{ objectFit: 'cover' }}
+          className="absolute top-0 left-0 w-full"
         />
+        <h1 className="[text-shadow:_2px_2px_3px_indigo] relative z-[200] text-4xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white text-center uppercase max-w-3xl mx-auto"><span className="text-indigo-100">A</span>ssociation des <span className="text-indigo-100">T</span>ourneurs de <span className="text-indigo-100">F</span>ranche-<span className="text-indigo-100">C</span>omté</h1>
       </div>
 
       <SectionTitle
@@ -158,16 +159,14 @@ export default function Home() {
       <div>
         <Container>
           <Zoom scale={1.4} duration={2000} {...properties}>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide0.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide1.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide2.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide3.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide4.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide5.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide6.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide7.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide8.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide9.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide10.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide11.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide12.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
@@ -186,15 +185,14 @@ export default function Home() {
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide25.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide26.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide27.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide28.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide29.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide30.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide31.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide32.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide33.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide34.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide35.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide36.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide37.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
           </Zoom>
         </Container>
