@@ -7,7 +7,7 @@ import SectionTitle from "../components/sectionTitle";
 import { benefitOne, benefitTwo, benefitThree } from "../components/data";
 // import Video from "../components/video";
 import Benefits from "../components/benefits";
-// import Footer from "../components/footer";
+import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 // import Cta from "../components/cta";
 // import Faq from "../components/faq";
@@ -33,15 +33,11 @@ import 'react-slideshow-image/dist/styles.css';
 import Container from "../components/container";
 
 
-import slide37 from '../public/img/_XL11236.jpg'
-
-import slide35 from '../public/img/_XL19788.jpg'
-
-import slide32 from '../public/img/_XL19804.jpg'
-import slide31 from '../public/img/20161118_202525_resized_1.jpg'
-
-import slide29 from '../public/img/311571546_1240304366789210_7344339275355158740_n.jpg'
-
+import slide32 from '../public/img/_XL11236.jpg'
+import slide31 from '../public/img/_XL19788.jpg'
+import slide30 from '../public/img/_XL19804.jpg'
+import slide29 from '../public/img/20161118_202525_resized_1.jpg'
+import slide28 from '../public/img/311571546_1240304366789210_7344339275355158740_n.jpg'
 import slide27 from '../public/img/jardin14.jpg'
 import slide26 from '../public/img/jardin22.jpg'
 import slide25 from '../public/img/Micropolis-2010_236.jpg'
@@ -60,16 +56,16 @@ import slide13 from '../public/img/P1060761.jpg'
 import slide12 from '../public/img/P1060824.jpg'
 import slide11 from '../public/img/P1060835.jpg'
 import slide10 from '../public/img/P1060860.jpg'
-
+import slide9 from '../public/img/affiche-tfc-2023.jpg'
 import slide8 from '../public/img/WP_20161118_17_56_19_Pro.jpg'
-import slide7 from '../public/img/wpbafb1b16_06-233x300.png'
-
-
+import slide7 from '../public/img/affiche-tfc-2021.jpg'
+import slide6 from '../public/img/wpbafb1b16_06-233x300.png'
+import slide5 from '../public/img/affiche-tfc-2019.jpg'
 import slide4 from '../public/img/XL1_0530.jpg'
-
+import slide3 from '../public/img/affiche-tfc-2018.jpg'
 import slide2 from '../public/img/XL1_0556.jpg'
-import slide1 from '../public/img/XL1_4838.jpg'
-
+import slide1 from '../public/img/affiche-tfc-2016.jpg'
+import slide0 from '../public/img/XL1_4838.jpg'
 
 
 const buttonStyle = {
@@ -80,7 +76,8 @@ const buttonStyle = {
 
 const properties = {
     prevArrow: <button style={{ ...buttonStyle }}></button>,
-    nextArrow: <button style={{ ...buttonStyle }}></button>
+    nextArrow: <button style={{ ...buttonStyle }}></button>,
+    pauseOnHover: false
 }
 
 export default function Home() {
@@ -152,21 +149,19 @@ export default function Home() {
 
       {/* <Cta /> */}
 
-      {/* <Footer /> */}
-
-      {/* <PopupWidget /> */}
-
       <div>
         <Container>
           <Zoom scale={1.4} duration={2000} {...properties}>
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide0.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide1.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide2.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide3.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide4.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide5.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide6.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide7.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide8.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide9.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide10.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide11.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide12.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
@@ -185,18 +180,18 @@ export default function Home() {
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide25.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide26.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide27.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide28.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide29.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
+              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide30.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide31.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
               <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide32.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide35.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
-
-              <div className="each-slide"><div style={{ 'backgroundImage': `url(${slide37.src})`, 'backgroundSize': 'contain', 'backgroundRepeat': 'no-repeat', 'backgroundPosition': 'center'}}></div></div>
           </Zoom>
         </Container>
       </div>
+
+      <Footer />
+
+      {/* <PopupWidget /> */}
 
     </>
   );

@@ -1,8 +1,5 @@
 import {
   UserGroupIcon,
-  ChartSquareBarIcon,
-  CursorClickIcon,
-  DeviceMobileIcon,
   AcademicCapIcon,
   ChatBubbleLeftRightIcon,
   SunIcon,
@@ -11,9 +8,11 @@ import {
   SparklesIcon
 } from "@heroicons/react/24/outline";
 
+
 import benefitOneImg from "../public/img/_bee11115.jpg";
 import benefitTwoImg from "../public/img/XL1_6413.jpg";
 import benefitThreeImg from "../public/img/_XL19789.jpg";
+
 
 const benefitOne = {
   title: "Nos buts",

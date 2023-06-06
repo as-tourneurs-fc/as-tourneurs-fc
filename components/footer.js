@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Container from "./container";
+import Image from "next/image";
+import footerLogo from "../public/img/logo-atfc.png";
 
 export default function Footer() {
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
@@ -8,57 +10,21 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-neutral-700 lg:grid-cols-5">
+        <div className="flex justify-center items-center max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-neutral-700">
 
-          {/* <div className="lg:col-span-2">
-            <div>
-              {" "}
-              <Link href="/">
-                <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                  <span>
-                    <img
-                      src="/img/logo.svg"
-                      alt="N"
-                      width="32"
-                      height="32"
-                      className="w-8"
-                    />
-                  </span>
-                  <span>Nextly</span>
-                </a>
-              </Link>
-            </div>
-
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
-            </div>
-          </div> */}
-
-          {/* <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-neutral-700">
-                    {item}
-                  </a>
-                </Link>
-              ))}
-            </div>
+          <div>
+            <Image
+              src={footerLogo}
+              alt="Association des Tourneurs de France-Comté"
+              placeholder="blur"
+              className="w-16"
+            />
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-neutral-700">
-                    {item}
-                  </a>
-                </Link>
-              ))}
-            </div>
-          </div> */}
+            ASSOCIATION DES TOURNEURS DE FRANCHE-COMTÉ — 2023
+          </div>
+
 
           {/* <div className="">
             <div>Suivez-nous</div>
