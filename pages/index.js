@@ -4,9 +4,10 @@ import Hero from "../components/hero";
 // import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo, benefitThree } from "../components/data";
+import { benefitOne, benefitTwo, benefitThree, newsOne } from "../components/data";
 // import Video from "../components/video";
 import Benefits from "../components/benefits";
+import News from "../components/news";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 // import Cta from "../components/cta";
@@ -108,6 +109,12 @@ export default function Home() {
         />
         <h1 className="[text-shadow:_2px_2px_3px_indigo] relative z-[200] text-4xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white text-center uppercase max-w-3xl mx-auto"><span className="text-indigo-100">A</span>ssociation des <span className="text-indigo-100">T</span>ourneurs de <span className="text-indigo-100">F</span>ranche-<span className="text-indigo-100">C</span>omté</h1>
       </div>
+
+      <SectionTitle
+        title="Actualités">
+      </SectionTitle>
+
+      <News data={newsOne} />
 
       <SectionTitle
         pretitle="Association des Tourneurs de Franche-Comté"
