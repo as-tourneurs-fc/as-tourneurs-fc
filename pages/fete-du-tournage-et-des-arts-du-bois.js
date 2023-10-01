@@ -75,7 +75,6 @@ export default function NewsDetailOne() {
 
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">Salle DOLEXPO, rond-point des droits de l’homme, DOLE (39)</p>
 
-
               <p className="mb-5"><strong>du vendredi 10 novembre 14h00 au dimanche 12 novembre 2023 jusqu’à 18h00</strong></p>
 
               <p className="mb-5">Devant le succès des éditions précédentes, l’association des tourneurs de Franche-Comté organise pour la 4<sup>e</sup> fois sa grande fête du tournage et des arts du bois à la salle DOLEXPO de DOLE (39).</p>
@@ -86,7 +85,29 @@ export default function NewsDetailOne() {
 
               <p className="mb-5">De retour des Etats-Unis où elle vient de se produire, Madame NAIGEON Joss, artiste éminente, nous fera la joie de nous présenter une conférence et nous faire partager toute sa sensibilité. Une démonstration nous sera également présentée par Monsieur GISQUET Lionel, reconnu pour son travail d’une précision remarquable.</p>
 
-              <p className="mb-5"> Une pêche à la ligne est organisée pour les enfants qui gagneront à chaque fois des objets tournés. Ils auront également la joie de pouvoir rencontrer Onyx le magicien qui leur offrira des ballons les samedi et dimanche de 14 à 16 heures.</p>
+              <div className="my-10 flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-4 dark:bg-neutral-800">
+
+                <p className="mt-8 mb-5"><em>Durée des démonstrations 1 heure 30</em></p>
+
+                <h2 className="mb-4 text-lg font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Démos de Joss Naigeon</h2>
+
+                <ul className="list-disc pl-10">
+                  <li className="mb-2">Vendredi  14h30 Ange gardien.</li>
+                  <li className="mb-2">Samedi 14h30 bulle de dentelle.</li>
+                  <li className="mb-2">Dimanche 14h00 Ukibori Boxes.</li>
+                </ul>
+
+                <h2 className="mt-8 mb-4 text-lg font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-xl dark:text-white">Démos de Lionel Gisquet</h2>
+
+                <ul className="list-disc mb-8 pl-10">
+                  <li className="mb-2">Vendredi 16h30 Boite dans une boule.</li>
+                  <li className="mb-2">Samedi 16h30 suite Boite dans une boule.</li>
+                  <li className="mb-2">Dimanche 16h00 boule de Canton.</li>
+                </ul>
+
+              </div>
+
+              <p className="mb-5">Une pêche à la ligne est organisée pour les enfants qui gagneront à chaque fois des objets tournés. Ils auront également la joie de pouvoir rencontrer Onyx le magicien qui leur offrira des ballons les samedi et dimanche de 14 à 16 heures.</p>
 
               <p className="mb-5">Possibilité de se restaurer sur place le midi, et stand de gaufres et crêpes l’après-midi.</p>
 
