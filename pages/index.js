@@ -4,7 +4,7 @@ import Hero from "../components/hero";
 // import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo, benefitThree, newsOne } from "../components/data";
+import { benefitOne, benefitTwo, benefitThree, newsOne, newsTwo } from "../components/data";
 // import Video from "../components/video";
 import Benefits from "../components/benefits";
 import News from "../components/news";
@@ -114,7 +114,7 @@ export default function Home() {
         title="Actualités">
       </SectionTitle>
 
-      <News data={newsOne} />
+      <News data={newsTwo} />
 
       <SectionTitle
         pretitle="Association des Tourneurs de Franche-Comté"

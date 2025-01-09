@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           <div>
-            ASSOCIATION DES TOURNEURS DE FRANCHE-COMTÉ — 2023
+            ASSOCIATION DES TOURNEURS DE FRANCHE-COMTÉ — 2024
           </div>
 
 

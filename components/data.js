@@ -36,7 +36,7 @@ const benefitOne = {
       icon: <SunIcon />,
     },
   ],
-};
+}
 
 const benefitTwo = {
   title: "Esprit",
@@ -54,7 +54,7 @@ const benefitTwo = {
       icon: <AcademicCapIcon />,
     },
   ],
-};
+}
 
 const benefitThree = {
   title: "Activités",
@@ -77,13 +77,22 @@ const benefitThree = {
       icon: <StarIcon />,
     },
   ],
-};
+}
 
 const newsOne = {
   title: "Fête du tournage et des arts du bois",
   desc: "Salle DOLEXPO, rond-point des droits de l’homme, DOLE (39)",
   image: newsOneImg,
-  excerpt: `<p class="mb-5"><strong>du vendredi 10 novembre 14h00 au dimanche 12 novembre 2023 jusqu’à 18h00</strong></p><p class="mb-5">L'association des tourneurs de Franche-Comté organise pour la 4ème fois sa grande fête du tournage et des arts du bois. <br />Particuliers, associations et professionnels se regrouperont autour d'une exposition sur le thème de la Bourgogne-Franche-Comté où vous seront présentés de multiples réalisations représentant notre belle région. <br />Vous pourrez admirer des objets artisanaux de grande diversité et les dernières innovations en matériels, voir des démontrations, et assister à des conférences présentées par Mme NAIGEON et M. GISQUET. <br />Pêche à la ligne et magicien pour les enfants. Restauration sur place.</p><p class="mb-5">Tarif unique de 5 euros par entrée et passe 3 jours 10 euros, entrée gratuite pour les moins de 12 ans.</p><p cl ass="mb-5">Pour tous renseignements complémentaires : <br /> <a href="https://www.facebook.com/groups/tourneursdefranchecomte" target="_blank" rel="noopener">https://www.facebook.com/groups/tourneursdefranchecomte</a></p>`
-};
+  excerpt: `<p class="mb-5"><strong>du vendredi 10 novembre 14h00 au dimanche 12 novembre 2023 jusqu’à 18h00</strong></p><p class="mb-5">L'association des tourneurs de Franche-Comté organise pour la 4ème fois sa grande fête du tournage et des arts du bois. <br />Particuliers, associations et professionnels se regrouperont autour d'une exposition sur le thème de la Bourgogne-Franche-Comté où vous seront présentés de multiples réalisations représentant notre belle région. <br />Vous pourrez admirer des objets artisanaux de grande diversité et les dernières innovations en matériels, voir des démontrations, et assister à des conférences présentées par Mme NAIGEON et M. GISQUET. <br />Pêche à la ligne et magicien pour les enfants. Restauration sur place.</p><p class="mb-5">Tarif unique de 5 euros par entrée et passe 3 jours 10 euros, entrée gratuite pour les moins de 12 ans.</p><p cl ass="mb-5">Pour tous renseignements complémentaires : <br /> <a href="https://www.facebook.com/groups/tourneursdefranchecomte" target="_blank" rel="noopener">https://www.facebook.com/groups/tourneursdefranchecomte</a></p>`,
+  detail_link: '/fete-du-tournage-et-des-arts-du-bois/'
+}
 
-export { benefitOne, benefitTwo, benefitThree, newsOne };
+const newsTwo = {
+  title: "Fête du tournage et des arts du bois",
+  desc: "Salle DOLEXPO, rond-point des droits de l’homme, DOLE (39)",
+  image: false,
+  excerpt: `<p class="mb-5"><strong>Du vendredi 7 novembre 14h00 <br />au dimanche 9 novembre 2025 jusqu’à 18h00</strong></p><p class="mb-5">L’association des tourneurs de Franche-Comté organise pour la 5<sup>e</sup> fois sa grande fête du tournage et des arts du bois. <br />Particuliers, associations et professionnels se regrouperont autour d’une exposition. L’exposition sera une rétrospective des <strong>20 ans</strong> de l’association <strong>ATFC</strong>.</p><p class="mb-5">Vous pourrez admirer des objets artisanaux de grande diversité et les dernières innovations en matériels.</p><p class="mb-5">Des informations complémentaire seront ajoutées en cours d’année 2025.</p><p class="mb-5"><mark class="text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200"><a href="https://www.facebook.com/groups/tourneursdefranchecomte" target="_blank" rel="noopener" class="text-indigo-600 hover:text-indigo-800 transition-all duration-300">https://www.facebook.com/groups/tourneursdefranchecomte</a></mark></p>`,
+  detail_link: false
+}
+
+export { benefitOne, benefitTwo, benefitThree, newsOne, newsTwo };
