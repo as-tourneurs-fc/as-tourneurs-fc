@@ -113,13 +113,13 @@ export default function NewsDetailOne() {
 
               <p className="mb-5">Tarif unique de 5 euros par entrée et passe 3 jours 10 euros, entrée gratuite pour les moins de 12 ans.</p>
 
-              <p cl ass="mb-5">Pour tous renseignements complémentaires : <br /> <a href="https://www.facebook.com/groups/tourneursdefranchecomte" target="_blank" rel="noopener">https://www.facebook.com/groups/tourneursdefranchecomte</a></p>
+              <p className="mb-5">Pour tous renseignements complémentaires : <br /> <a href="https://www.facebook.com/groups/tourneursdefranchecomte" target="_blank" rel="noopener">https://www.facebook.com/groups/tourneursdefranchecomte</a></p>
 
 
             </div>
 
             <div className="w-full pt-5">
-              <p className="mb-5"><Link href="/" className="py-2 px-4 text-2xl leading-normal text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200 hover:text-indigo-800 transition-all duration-300">Retour à l’accueil</Link></p>
+              <p className="mb-5"><a href="/" className="py-2 px-4 text-2xl leading-normal text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200 hover:text-indigo-800 transition-all duration-300">Retour à l’accueil</a></p>
             </div>
 
           </div>

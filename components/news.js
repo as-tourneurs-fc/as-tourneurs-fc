@@ -10,7 +10,7 @@ export default function News(props) {
 
   return (
     <>
-      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap justify-center">
+      <Container className="flex flex-wrap lg:gap-10 lg:flex-nowrap justify-center">
 
         {data.image &&
           <div

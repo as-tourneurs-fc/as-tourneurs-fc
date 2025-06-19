@@ -1,37 +1,37 @@
-import Head from "next/head";
-import Image from "next/image";
-import Hero from "../components/hero";
-// import Navbar from "../components/navbar";
-import SectionTitle from "../components/sectionTitle";
+import Head from "next/head"
+import Image from "next/image"
+import Hero from "../components/hero"
+// import Navbar from "../components/navbar"
+import SectionTitle from "../components/sectionTitle"
 
-import { benefitOne, benefitTwo, benefitThree, newsOne, newsTwo } from "../components/data";
-// import Video from "../components/video";
-import Benefits from "../components/benefits";
-import News from "../components/news";
-import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
-// import Cta from "../components/cta";
-// import Faq from "../components/faq";
-// import PopupWidget from "../components/popupWidget";
+import { benefitOne, benefitTwo, benefitThree, newsTwo, newsThree } from "../components/data"
+// import Video from "../components/video"
+import Benefits from "../components/benefits"
+import News from "../components/news"
+import Footer from "../components/footer"
+import Testimonials from "../components/testimonials"
+// import Cta from "../components/cta"
+// import Faq from "../components/faq"
+// import PopupWidget from "../components/popupWidget"
 
-//import dynamic from "next/dynamic";
+//import dynamic from "next/dynamic"
 
-// const Video = dynamic(() => import("../components/video"));
+// const Video = dynamic(() => import("../components/video"))
 
-// const Benefits = dynamic(() => import("../components/benefits"));
-// const Footer = dynamic(() => import("../components/footer"));
-// const Testimonials = dynamic(() => import("../components/testimonials"));
-// const Cta = dynamic(() => import("../components/cta"));
-// const Faq = dynamic(() => import("../components/faq"));
+// const Benefits = dynamic(() => import("../components/benefits"))
+// const Footer = dynamic(() => import("../components/footer"))
+// const Testimonials = dynamic(() => import("../components/testimonials"))
+// const Cta = dynamic(() => import("../components/cta"))
+// const Faq = dynamic(() => import("../components/faq"))
 
-// const PopupWidget = dynamic(() => import("../components/popupWidget"));
+// const PopupWidget = dynamic(() => import("../components/popupWidget"))
 
 import imgBg from "../public/img/311571546_1240304366789210_7344339275355158740_n.jpg"
 
-import { Zoom } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+import { Zoom } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
 
-import Container from "../components/container";
+import Container from "../components/container"
 
 
 import slide32 from '../public/img/_XL11236.jpg'
@@ -110,11 +110,13 @@ export default function Home() {
         <h1 className="[text-shadow:_2px_2px_3px_indigo] relative z-[200] text-4xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white text-center uppercase max-w-3xl mx-auto"><span className="text-indigo-100">A</span>ssociation des <span className="text-indigo-100">T</span>ourneurs de <span className="text-indigo-100">F</span>ranche-<span className="text-indigo-100">C</span>omté</h1>
       </div>
 
+
+
       <SectionTitle
         title="Actualités">
       </SectionTitle>
 
-      <News data={newsTwo} />
+      <News data={newsThree} />
 
       <SectionTitle
         pretitle="Association des Tourneurs de Franche-Comté"

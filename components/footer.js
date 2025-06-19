@@ -5,8 +5,8 @@ import Image from "next/image";
 import footerLogo from "../public/img/logo-atfc.png";
 
 export default function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  // const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  // const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
       <Container>
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           <div>
-            ASSOCIATION DES TOURNEURS DE FRANCHE-COMTÉ — 2024
+            ASSOCIATION DES TOURNEURS DE FRANCHE-COMTÉ — 2025
           </div>
 
 
